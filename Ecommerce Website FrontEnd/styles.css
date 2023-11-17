@@ -1,0 +1,523 @@
+.dark-mode{
+    background-color: #121212;
+    color: white;
+}
+body {
+    background-color: white;
+    color: black;
+    transition: 0.8s background,color 0.3s;
+}
+#header {
+    background-color: lightgray;
+    color: black;
+}
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+body.dark-mode .four p{
+    color: white;
+}
+body.dark-mode #header,
+body.dark-mode #variation
+body.dark-mode #Diwali_sale{
+    background-color: black;
+}
+body.dark-mode #header #navbar li a .cartt{
+    color: white;
+}
+
+body.dark-mode #header ul li a{
+    color: white;
+}
+body.dark-mode #variation .category{
+    background-color: black;
+}
+body.dark-mode #variation .category li a{
+    color: white;
+}
+body.dark-mode #Diwali_sale h2,
+body.dark-mode #Diwali_sale p,
+body.dark-mode #Diwali_sale .prod .box .desc span,
+body.dark-mode #Diwali_sale .prod .box .desc h5,
+body.dark-mode #Diwali_sale .prod .box .desc h4{
+    color: white;
+}
+body.dark-mode #Diwali_sale .prod .box:hover{
+    box-shadow: 2px 2px 20px 8px lightblue;
+    cursor: pointer;
+}
+body.dark-mode #header #logo,
+body.dark-mode #header #theme{
+    color: wheat;
+}
+body.dark-mode #footer .one p{
+    color: wheat;
+}
+body.dark-mode #footer .one ul a{
+    color: yellow;
+}
+body.dark-mode #footer .two ul li a,
+body.dark-mode #footer .three ul li a{
+    color: white;
+}
+body.dark-mode #footer .two ul li a:hover{
+    color: green;
+}
+body.dark-mode #footer .three ul li a:hover{
+    color: green;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: rgba(0,0,0,0.6);
+}
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: rgba(0,0,0,0.6);
+}
+h4{
+    font-size: 20px;
+    color: rgba(0,0,0,0.6);
+}
+h6{
+    font-weight: 700;
+    font-size: 12px;
+}
+p{
+    margin-top: 7px;
+    color: rgba(0,0,0,0.6);
+}
+.section-p1{
+    padding: 40px 80px;
+}
+.section-m1{
+    margin: 40px 0;
+}
+body{
+    width: 100%;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.06);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background:white;
+}
+#header #logo{
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: -5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 23px;
+    margin-top: 6px;
+    transform:rotate(-3deg);
+    letter-spacing: 3px;
+} 
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar li{
+    margin-left: 40px;
+    list-style: none;
+    font-size: 16px;
+}
+#navbar li #theme{
+    border:none;
+    outline: none;
+    border-radius: 50%;
+    padding-top: 8px;
+    font-size: 22px;
+    background:transparent;
+    cursor: pointer;
+}
+#navbar li a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    transition: 0.3s ease;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: rgb(73, 140, 73);
+}
+#navbar li a.active::after{
+    content: "";
+    position: absolute;
+    width:60%;
+    height: 2px;
+    background:rgb(73, 140, 73);
+    bottom: -2px;
+    left: 1px;
+    transition: all 2s ease;
+}
+#navbar li a i{
+    font-size: 22px;
+    color: rgba(0,0,0,0.6);
+    padding-top: 5px;
+}
+#variation{
+    background-color:rgba(0,0,0,0.7);
+    width: 100%;
+    height: 4vh;
+    position: sticky;
+    top: 75px;
+    left: 0;
+    background-color: white;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.06);
+    z-index:999;
+}
+#variation .category{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+}
+#variation .category li a{
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+}
+#variation .category li a:hover{
+    background-color: rgb(57, 236, 141);
+    padding: 5px 3px 2.3px 3px;
+    color: black;
+    border-radius: 10px;
+}
+#banner{
+    height: 90vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("slidebar/pic1.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding: 0 80px;
+}
+#banner h4{
+    padding: 0px 0px 15px 80px;
+}
+#banner h2{
+    padding: 0px 0px 15px 80px;
+}
+#banner h1{
+    padding: 0px 0px 15px 80px;
+}
+#banner p{
+    padding: 0px 0px 15px 80px;
+    font-size: 20px;
+}
+#banner p span{
+    background-color: brown;
+    transform: rotate(10deg);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+#banner button{
+    margin-left: 200px;
+    font-size: 14px;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(38, 137, 38);
+    color: white;
+    border:none;
+    outline: none;
+}
+#banner button:hover{
+    background-color: darkslateblue;
+}
+#Diwali_sale{
+    text-align: center;
+}
+#Diwali_sale .prod{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+#Diwali_sale .prod .box{
+    width: 23%;
+    padding: 10px 12px;
+    border: 1px solid rgba(0,0,0,0.4);
+    border-radius: 25px;
+    background-color: rgba(0,0,0,0.1);
+    margin-top: 20px;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+    position: relative;
+    cursor: pointer;
+}
+#Diwali_sale .prod .box:hover{
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.4);
+}
+#Diwali_sale .box img{
+    width: 100%;
+    border-radius: 20px;
+}
+#Diwali_sale .prod .box .desc{
+    text-align: start;
+    padding: 10px 0;
+}
+#Diwali_sale .prod .box .desc h5{
+    font-size: 16px;
+    color: rgba(0,0,0,0.6);
+}
+#Diwali_sale .prod .box .desc span{
+    color: rgba(0,0,0,0.6);
+}
+#Diwali_sale .prod .box .desc .star .v{
+    color: rgb(245, 222, 93);
+}
+#Diwali_sale .prod .box .bx-cart{
+    position: absolute;
+    font-size: 30px;
+    color: rgba(0,0,0,0.6);
+    bottom: 23px;
+    left: 260px;
+}
+#min_ban{
+    background-image: url("slidebar/back_bann.jpeg");
+    background-size: cover;
+    background-position: top 50% right 0%;
+    padding: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#min_ban h1{
+    color: white;
+}
+#min_ban p{
+    color: white;
+    font-size: 24px;
+}
+#min_ban p span{
+    color: red;
+    background-color: rgb(29, 234, 70);
+    border-radius: 10px;
+    padding: 5px;
+}
+.main_img{
+    display:flex;
+    
+}
+#img_block .main_img .img_big img{
+    border-radius: 20px;
+    margin-left: 50px;
+}
+#img_block .main_img .sub_img{
+    display: flex;
+    margin-left: 60px;
+}
+#img_block .main_img .sub_img img{
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#img_block .normal{
+    margin-left: 20px;
+    font-size: 14px;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(38, 137, 38);
+    color: white;
+    border:none;
+    outline: none;
+}
+#img_block .main_img .sub_col .content{
+    margin-left: 90px;
+}
+#img_block .main_img .sub_col .content h3{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#img_block .main_img .sub_col .content h3{
+    margin-bottom: 10px;
+}
+#img_block .main_img .sub_col .content i{
+    font-size: 22px;
+}
+#img_block .main_img .sub_col .content input{
+    width: 45px;
+    height: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#img_block .main_img .sub_col .content input:focus{
+    outline: none;
+}
+#img_block .main_img .sub_col .content .normal:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+#img_block .main_img .sub_col .content p{
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#signup{
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+#signup  .f .signhead{
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 80px;
+}
+#signup .f .signsub{
+    letter-spacing: 1px;
+    padding-left: 80px;
+}
+#signup .f .signsub span{
+    color: rgba(238, 221, 32, 0.785);
+    font-weight: 600;
+}
+#signup .in{
+    padding-right: 200px;
+}
+
+#signup .in .field{
+    padding: 15px;
+    width: 400px;
+    border:none;
+    outline: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: none;
+    border-bottom-right-radius: none;
+    border-bottom-left-radius: 10px;
+    background:wheat;
+}
+#signup .in .btn{
+    padding: 15px;
+    width: 130px;
+    background:rgb(65, 245, 65);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+}
+#footer #logo{
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: -5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 23px;
+    margin-top: 6px;
+    transform:rotate(-3deg);
+    letter-spacing: 3px;
+} 
+#footer .one h3{
+    font-style: italic;
+    font-weight: 600;
+}
+#footer .one ul a{
+    font-size: 22px;
+    padding-top: 20px;
+}
+#footer .two ul,
+#footer .three ul{
+    list-style: none;
+}
+#footer .two ul li a,
+#footer .three ul li a{
+    text-decoration: none;
+    color: rgba(0,0,0,1);
+}
+#footer .two ul li a:hover,
+#footer .three ul li a:hover{
+    text-decoration: underline;
+    color: green;
+}
+.four{
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* Sproduct */
+body.dark-mode #img_block .main_img .sub_col .content h2,
+body.dark-mode #img_block .main_img .sub_col .content p
+{
+    color: white;
+} 
+/* Cart Page */
+
+#cartpage{
+    width: 100%;
+    height: 400px;
+    background-image: url("slidebar/cartbann.jpeg");
+    background-position: top 40% right 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cartPage h1{
+    padding: 100px;
+}
+#Table table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+    margin-left: -90px;
+}
+#Table table img{
+    width: 70px;
+}
+#Table table tr td input{
+    width: 40px;
+    text-align: center;
+}
+#Table table td:nth-child(1){
+    width: 100px;
+    text-align:center;
+    padding: 10px 60px;
+}
+#Table table td:nth-child(2){
+    width: 150px;
+    text-align:center;
+    padding: 10px 60px;
+}
+#Table table td:nth-child(3){
+    width: 250px;
+    text-align:center;
+    padding: 10px 60px;
+}
+#Table table td:nth-child(4),
+#Table table td:nth-child(5),
+#Table table td:nth-child(6){
+    width: 150px;
+    text-align:center;
+}
+#Table table tr td:nth-child(7){
+    padding-left: 20px;
+}
+body.dark-mode #Table table td,
+body.dark-mode #Table table td a{
+    color: white;
+}
